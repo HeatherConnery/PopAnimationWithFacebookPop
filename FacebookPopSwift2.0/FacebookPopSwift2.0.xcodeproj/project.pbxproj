@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B12384FEEA4ED742D39225B6 /* libPods-FacebookPopSwift2.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF83F8ABB44F27F17792BEBF /* libPods-FacebookPopSwift2.0.a */; };
 		B67C0A851BF0F33000F68EAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67C0A841BF0F33000F68EAE /* AppDelegate.swift */; };
 		B67C0A871BF0F33000F68EAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67C0A861BF0F33000F68EAE /* ViewController.swift */; };
 		B67C0A8A1BF0F33000F68EAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67C0A881BF0F33000F68EAE /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		B67C0A8F1BF0F33000F68EAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B67C0A8D1BF0F33000F68EAE /* LaunchScreen.storyboard */; };
 		B67C0A9A1BF0F33000F68EAE /* FacebookPopSwift2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67C0A991BF0F33000F68EAE /* FacebookPopSwift2_0Tests.swift */; };
 		B67C0AA51BF0F33000F68EAE /* FacebookPopSwift2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67C0AA41BF0F33000F68EAE /* FacebookPopSwift2_0UITests.swift */; };
+		B67C0AB51BF0FD3D00F68EAE /* ObjectiveC-Bridge.m in Sources */ = {isa = PBXBuildFile; fileRef = B67C0AB41BF0FD3D00F68EAE /* ObjectiveC-Bridge.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		484529C4ED8277B7874A417F /* Pods-FacebookPopSwift2.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookPopSwift2.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookPopSwift2.0/Pods-FacebookPopSwift2.0.release.xcconfig"; sourceTree = "<group>"; };
+		77A864BECB9AAC4B8E386C0B /* Pods-FacebookPopSwift2.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FacebookPopSwift2.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FacebookPopSwift2.0/Pods-FacebookPopSwift2.0.debug.xcconfig"; sourceTree = "<group>"; };
 		B67C0A811BF0F33000F68EAE /* FacebookPopSwift2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookPopSwift2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67C0A841BF0F33000F68EAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B67C0A861BF0F33000F68EAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		B67C0AA01BF0F33000F68EAE /* FacebookPopSwift2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookPopSwift2.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67C0AA41BF0F33000F68EAE /* FacebookPopSwift2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookPopSwift2_0UITests.swift; sourceTree = "<group>"; };
 		B67C0AA61BF0F33000F68EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B67C0AB21BF0FD3D00F68EAE /* FacebookPopSwift2.0-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FacebookPopSwift2.0-Bridging-Header.h"; sourceTree = "<group>"; };
+		B67C0AB31BF0FD3D00F68EAE /* ObjectiveC-Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ObjectiveC-Bridge.h"; sourceTree = "<group>"; };
+		B67C0AB41BF0FD3D00F68EAE /* ObjectiveC-Bridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ObjectiveC-Bridge.m"; sourceTree = "<group>"; };
+		BF83F8ABB44F27F17792BEBF /* libPods-FacebookPopSwift2.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FacebookPopSwift2.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B12384FEEA4ED742D39225B6 /* libPods-FacebookPopSwift2.0.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D35BF3BD9C351B7F6EEC83B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77A864BECB9AAC4B8E386C0B /* Pods-FacebookPopSwift2.0.debug.xcconfig */,
+				484529C4ED8277B7874A417F /* Pods-FacebookPopSwift2.0.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96F49704A3F1259AA5605D3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF83F8ABB44F27F17792BEBF /* libPods-FacebookPopSwift2.0.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B67C0A781BF0F32F00F68EAE = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +107,8 @@
 				B67C0A981BF0F33000F68EAE /* FacebookPopSwift2.0Tests */,
 				B67C0AA31BF0F33000F68EAE /* FacebookPopSwift2.0UITests */,
 				B67C0A821BF0F33000F68EAE /* Products */,
+				6D35BF3BD9C351B7F6EEC83B /* Pods */,
+				96F49704A3F1259AA5605D3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +131,9 @@
 				B67C0A8B1BF0F33000F68EAE /* Assets.xcassets */,
 				B67C0A8D1BF0F33000F68EAE /* LaunchScreen.storyboard */,
 				B67C0A901BF0F33000F68EAE /* Info.plist */,
+				B67C0AB31BF0FD3D00F68EAE /* ObjectiveC-Bridge.h */,
+				B67C0AB41BF0FD3D00F68EAE /* ObjectiveC-Bridge.m */,
+				B67C0AB21BF0FD3D00F68EAE /* FacebookPopSwift2.0-Bridging-Header.h */,
 			);
 			path = FacebookPopSwift2.0;
 			sourceTree = "<group>";
@@ -132,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B67C0AA91BF0F33000F68EAE /* Build configuration list for PBXNativeTarget "FacebookPopSwift2.0" */;
 			buildPhases = (
+				D72E4E7F80FCBE702180C185 /* Check Pods Manifest.lock */,
 				B67C0A7D1BF0F32F00F68EAE /* Sources */,
 				B67C0A7E1BF0F32F00F68EAE /* Frameworks */,
 				B67C0A7F1BF0F32F00F68EAE /* Resources */,
+				B618BEDC5877477BFA7AA539 /* Embed Pods Frameworks */,
+				E2B71ECEDC870EDE1F1E7E2C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +221,7 @@
 		B67C0A791BF0F32F00F68EAE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = HConnery;
 				TargetAttributes = {
@@ -250,6 +285,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B618BEDC5877477BFA7AA539 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacebookPopSwift2.0/Pods-FacebookPopSwift2.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D72E4E7F80FCBE702180C185 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2B71ECEDC870EDE1F1E7E2C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FacebookPopSwift2.0/Pods-FacebookPopSwift2.0-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B67C0A7D1BF0F32F00F68EAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -257,6 +340,7 @@
 			files = (
 				B67C0A871BF0F33000F68EAE /* ViewController.swift in Sources */,
 				B67C0A851BF0F33000F68EAE /* AppDelegate.swift in Sources */,
+				B67C0AB51BF0FD3D00F68EAE /* ObjectiveC-Bridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,23 +480,30 @@
 		};
 		B67C0AAA1BF0F33000F68EAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A864BECB9AAC4B8E386C0B /* Pods-FacebookPopSwift2.0.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FacebookPopSwift2.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hconnery.FacebookPopSwift2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FacebookPopSwift2.0/FacebookPopSwift2.0-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		B67C0AAB1BF0F33000F68EAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 484529C4ED8277B7874A417F /* Pods-FacebookPopSwift2.0.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FacebookPopSwift2.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hconnery.FacebookPopSwift2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FacebookPopSwift2.0/FacebookPopSwift2.0-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -483,6 +574,7 @@
 				B67C0AAB1BF0F33000F68EAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B67C0AAC1BF0F33000F68EAE /* Build configuration list for PBXNativeTarget "FacebookPopSwift2.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +583,7 @@
 				B67C0AAE1BF0F33000F68EAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B67C0AAF1BF0F33000F68EAE /* Build configuration list for PBXNativeTarget "FacebookPopSwift2.0UITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +592,7 @@
 				B67C0AB11BF0F33000F68EAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
